@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62E54B5C2102053F00B46831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E54B5B2102053F00B46831 /* AppDelegate.swift */; };
+		62E54B5E2102053F00B46831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E54B5D2102053F00B46831 /* ViewController.swift */; };
+		62E54B612102053F00B46831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E54B5F2102053F00B46831 /* Main.storyboard */; };
+		62E54B632102054100B46831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E54B622102054100B46831 /* Assets.xcassets */; };
+		62E54B662102054100B46831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E54B642102054100B46831 /* LaunchScreen.storyboard */; };
+		62E54B712102054200B46831 /* KZExpandableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E54B702102054200B46831 /* KZExpandableViewTests.swift */; };
+		62E54B7C2102054200B46831 /* KZExpandableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E54B7B2102054200B46831 /* KZExpandableViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62E54B6D2102054200B46831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E54B502102053E00B46831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E54B572102053F00B46831;
+			remoteInfo = KZExpandableView;
+		};
+		62E54B782102054200B46831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E54B502102053E00B46831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E54B572102053F00B46831;
+			remoteInfo = KZExpandableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62E54B582102053F00B46831 /* KZExpandableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZExpandableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E54B5B2102053F00B46831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62E54B5D2102053F00B46831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62E54B602102053F00B46831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62E54B622102054100B46831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62E54B652102054100B46831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62E54B672102054100B46831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E54B6C2102054200B46831 /* KZExpandableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZExpandableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E54B702102054200B46831 /* KZExpandableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZExpandableViewTests.swift; sourceTree = "<group>"; };
+		62E54B722102054200B46831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E54B772102054200B46831 /* KZExpandableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZExpandableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E54B7B2102054200B46831 /* KZExpandableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZExpandableViewUITests.swift; sourceTree = "<group>"; };
+		62E54B7D2102054200B46831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62E54B552102053F00B46831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E54B692102054200B46831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E54B742102054200B46831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62E54B4F2102053E00B46831 = {
+			isa = PBXGroup;
+			children = (
+				62E54B5A2102053F00B46831 /* KZExpandableView */,
+				62E54B6F2102054200B46831 /* KZExpandableViewTests */,
+				62E54B7A2102054200B46831 /* KZExpandableViewUITests */,
+				62E54B592102053F00B46831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62E54B592102053F00B46831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62E54B582102053F00B46831 /* KZExpandableView.app */,
+				62E54B6C2102054200B46831 /* KZExpandableViewTests.xctest */,
+				62E54B772102054200B46831 /* KZExpandableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62E54B5A2102053F00B46831 /* KZExpandableView */ = {
+			isa = PBXGroup;
+			children = (
+				62E54B5B2102053F00B46831 /* AppDelegate.swift */,
+				62E54B5D2102053F00B46831 /* ViewController.swift */,
+				62E54B5F2102053F00B46831 /* Main.storyboard */,
+				62E54B622102054100B46831 /* Assets.xcassets */,
+				62E54B642102054100B46831 /* LaunchScreen.storyboard */,
+				62E54B672102054100B46831 /* Info.plist */,
+			);
+			path = KZExpandableView;
+			sourceTree = "<group>";
+		};
+		62E54B6F2102054200B46831 /* KZExpandableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				62E54B702102054200B46831 /* KZExpandableViewTests.swift */,
+				62E54B722102054200B46831 /* Info.plist */,
+			);
+			path = KZExpandableViewTests;
+			sourceTree = "<group>";
+		};
+		62E54B7A2102054200B46831 /* KZExpandableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62E54B7B2102054200B46831 /* KZExpandableViewUITests.swift */,
+				62E54B7D2102054200B46831 /* Info.plist */,
+			);
+			path = KZExpandableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62E54B572102053F00B46831 /* KZExpandableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E54B802102054200B46831 /* Build configuration list for PBXNativeTarget "KZExpandableView" */;
+			buildPhases = (
+				62E54B542102053F00B46831 /* Sources */,
+				62E54B552102053F00B46831 /* Frameworks */,
+				62E54B562102053F00B46831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZExpandableView;
+			productName = KZExpandableView;
+			productReference = 62E54B582102053F00B46831 /* KZExpandableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62E54B6B2102054200B46831 /* KZExpandableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E54B832102054200B46831 /* Build configuration list for PBXNativeTarget "KZExpandableViewTests" */;
+			buildPhases = (
+				62E54B682102054200B46831 /* Sources */,
+				62E54B692102054200B46831 /* Frameworks */,
+				62E54B6A2102054200B46831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62E54B6E2102054200B46831 /* PBXTargetDependency */,
+			);
+			name = KZExpandableViewTests;
+			productName = KZExpandableViewTests;
+			productReference = 62E54B6C2102054200B46831 /* KZExpandableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62E54B762102054200B46831 /* KZExpandableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E54B862102054200B46831 /* Build configuration list for PBXNativeTarget "KZExpandableViewUITests" */;
+			buildPhases = (
+				62E54B732102054200B46831 /* Sources */,
+				62E54B742102054200B46831 /* Frameworks */,
+				62E54B752102054200B46831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62E54B792102054200B46831 /* PBXTargetDependency */,
+			);
+			name = KZExpandableViewUITests;
+			productName = KZExpandableViewUITests;
+			productReference = 62E54B772102054200B46831 /* KZExpandableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62E54B502102053E00B46831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Senim;
+				TargetAttributes = {
+					62E54B572102053F00B46831 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					62E54B6B2102054200B46831 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 62E54B572102053F00B46831;
+					};
+					62E54B762102054200B46831 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 62E54B572102053F00B46831;
+					};
+				};
+			};
+			buildConfigurationList = 62E54B532102053E00B46831 /* Build configuration list for PBXProject "KZExpandableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62E54B4F2102053E00B46831;
+			productRefGroup = 62E54B592102053F00B46831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62E54B572102053F00B46831 /* KZExpandableView */,
+				62E54B6B2102054200B46831 /* KZExpandableViewTests */,
+				62E54B762102054200B46831 /* KZExpandableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62E54B562102053F00B46831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E54B662102054100B46831 /* LaunchScreen.storyboard in Resources */,
+				62E54B632102054100B46831 /* Assets.xcassets in Resources */,
+				62E54B612102053F00B46831 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E54B6A2102054200B46831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E54B752102054200B46831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62E54B542102053F00B46831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E54B5E2102053F00B46831 /* ViewController.swift in Sources */,
+				62E54B5C2102053F00B46831 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E54B682102054200B46831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E54B712102054200B46831 /* KZExpandableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E54B732102054200B46831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E54B7C2102054200B46831 /* KZExpandableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62E54B6E2102054200B46831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E54B572102053F00B46831 /* KZExpandableView */;
+			targetProxy = 62E54B6D2102054200B46831 /* PBXContainerItemProxy */;
+		};
+		62E54B792102054200B46831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E54B572102053F00B46831 /* KZExpandableView */;
+			targetProxy = 62E54B782102054200B46831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62E54B5F2102053F00B46831 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62E54B602102053F00B46831 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62E54B642102054100B46831 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62E54B652102054100B46831 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62E54B7E2102054200B46831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62E54B7F2102054200B46831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62E54B812102054200B46831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE38RNL7D6;
+				INFOPLIST_FILE = KZExpandableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.senim.KZExpandableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62E54B822102054200B46831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE38RNL7D6;
+				INFOPLIST_FILE = KZExpandableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.senim.KZExpandableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62E54B842102054200B46831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE38RNL7D6;
+				INFOPLIST_FILE = KZExpandableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.senim.KZExpandableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KZExpandableView.app/KZExpandableView";
+			};
+			name = Debug;
+		};
+		62E54B852102054200B46831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE38RNL7D6;
+				INFOPLIST_FILE = KZExpandableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.senim.KZExpandableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KZExpandableView.app/KZExpandableView";
+			};
+			name = Release;
+		};
+		62E54B872102054200B46831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE38RNL7D6;
+				INFOPLIST_FILE = KZExpandableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.senim.KZExpandableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KZExpandableView;
+			};
+			name = Debug;
+		};
+		62E54B882102054200B46831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE38RNL7D6;
+				INFOPLIST_FILE = KZExpandableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.senim.KZExpandableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KZExpandableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62E54B532102053E00B46831 /* Build configuration list for PBXProject "KZExpandableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E54B7E2102054200B46831 /* Debug */,
+				62E54B7F2102054200B46831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E54B802102054200B46831 /* Build configuration list for PBXNativeTarget "KZExpandableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E54B812102054200B46831 /* Debug */,
+				62E54B822102054200B46831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E54B832102054200B46831 /* Build configuration list for PBXNativeTarget "KZExpandableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E54B842102054200B46831 /* Debug */,
+				62E54B852102054200B46831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E54B862102054200B46831 /* Build configuration list for PBXNativeTarget "KZExpandableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E54B872102054200B46831 /* Debug */,
+				62E54B882102054200B46831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62E54B502102053E00B46831 /* Project object */;
+}
